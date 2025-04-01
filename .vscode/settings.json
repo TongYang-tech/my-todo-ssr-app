@@ -1,0 +1,69 @@
+{
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.icons": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "normal",
+  "editor.wordWrap": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingDelete": "always",
+  "editor.codeLens": true,
+  "editor.codeLensFontSize": 12,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.size": "fit",
+  "editor.minimap.scale": 1,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "editor.fastScrollSensitivity": 6,
+  "editor.renderWhitespace": "none",
+  "editor.accessibilitySupport": "off",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "git.autofetch": true,
+  "html.format.indentInnerHtml": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "keyboard.touchbar.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.port": 4201,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.wrapTabs": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false
+}
