@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "clean": "rm -rf ./node_modules && rm -rf ./dist",
+    "clean:modules": "rm -rf ./node_modules",
+    "clean:build": "cd ./client && rm -rf ./dist && cd .. && rm -rf ./dist",
     "setup": "npm i",
-    "dev": "nodemon server",
+    "dev": "nodemon app",
     "build": "npm run build:client && npm run build:server",
-    "build:client": "vite build --outDir dist/client",
-    "build:server": "vite build --ssr src/entry-server.jsx --outDir dist/server",
-    "preview": "cross-env NODE_ENV=production node server"
+    "build:client": "cd ./client && vite build --outDir ./dist/client",
+    "build:server": "vite build --ssr ./client/src/entry-server.jsx --outDir ./dist/server",
+    "preview": "cross-env NODE_ENV=production node app"
   },
   "dependencies": {
     "compression": "^1.8.0",
