@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node server",
+    "dev": "node server/index.js",
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build --outDir dist/client",
     "build:server": "vite build --ssr app/entry-server.jsx --outDir dist/server",
-    "preview": "cross-env NODE_ENV=production node server"
+    "preview": "cross-env NODE_ENV=production node server/index.js"
   },
   "dependencies": {
     "compression": "^1.8.0",
