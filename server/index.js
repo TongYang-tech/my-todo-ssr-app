@@ -39,7 +39,7 @@ app.use('*all', async (req, res) => {
 
     /** @type {string} */
     let template
-    /** @type {import('./app/entry-server.jsx').render} */
+    /** @type {import('../app/entry-server.jsx').render} */
     let render
     if (!isProduction) {
       // Always read fresh template in development
@@ -48,7 +48,7 @@ app.use('*all', async (req, res) => {
       render = (await vite.ssrLoadModule('/app/entry-server.jsx')).render
     } else {
       template = templateHtml
-      render = (await import('./dist/server/entry-server.js')).render
+      render = (await import('../dist/server/entry-server.js')).render
     }
 
     const rendered = await render(url)
