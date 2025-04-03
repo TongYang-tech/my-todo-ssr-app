@@ -52,8 +52,8 @@ app.use('*all', async (req, res) => {
     }
 
     const rendered = await render(url)
-    const renderedHtml = rendered.head
-    const renderedHead = rendered.html
+    const renderedHead = rendered.head
+    const renderedHtml = rendered.html
 
     const html = template
       .replace(`<!--app-head-->`, renderedHead ?? '')
